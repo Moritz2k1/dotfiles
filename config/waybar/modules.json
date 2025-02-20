@@ -1,0 +1,70 @@
+{
+  "custom/power": {
+    "format": "⏻ ",
+    "tooltip": false,
+    "on-click": "rofi -show p -modi p:'rofi-power-menu --symbols-font \"Symbols Nerd Font Mono\"' -font 'JetBrains Mono NF 16' -theme ~/.config/rofi/config.rasi -theme-str 'window {width: 10em;} listview {lines: 6;}'"
+    },
+
+    "hyprland/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "warp-on-scroll": false,
+        "format": "{name}",
+        "format-icons": {
+            "urgent": "",
+            "active": "",
+            "default": ""
+        }
+    },
+   
+    "pulseaudio": {
+        "format": "{icon}  {volume}%",
+        "format-source": " {volume}%",
+        "format-source-muted": " ",
+        "format-icons": {
+            "default": ["", " ", "  "]
+        },
+        "on-click": "pavucontrol"
+    },
+    "cpu": {
+        "format": "  {usage}%",
+        "tooltip": true,
+    },
+    "memory": {
+        "format": "  {}%",
+	      "tooltip": true
+    },
+    "temperature": {
+        "interval": 10,
+        "hwmon-path": "/sys/devices/platform/coretemp.0/hwmon/hwmon4/temp1_input",
+        "critical-threshold": 100,
+        "format-critical": " {temperatureC}",
+        "format": " {temperatureC}°C"
+    },
+   "clock": {
+        "format": "{:%a, %d %b %Y | %H:%M %p}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    },
+
+  "custom/notification": {
+    "tooltip": false,
+    "format": "{icon} ",
+    "format-icons": {
+      "notification": " ",
+      "none": " ",
+      "dnd-notification": " ",
+      "dnd-none": " ",
+      "inhibited-notification": " ",
+      "inhibited-none": " ",
+      "dnd-inhibited-notification": " ",
+      "dnd-inhibited-none": " "
+    },
+    "return-type": "json",
+    "exec-if": "which swaync-client",
+    "exec": "swaync-client -swb",
+    "on-click": "swaync-client -t -sw",
+    "on-click-right": "swaync-client -d -sw",
+    "escape": true
+  },
+
+}
