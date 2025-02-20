@@ -1,0 +1,29 @@
+{
+    "checksum": "047c9401bd5d2f454100abf7b0af472d",
+    "wallpaper": "/home/moritz/.wallpapers/Frieren_Forest.jpeg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#081111",
+        "foreground": "#c1c3c3",
+        "cursor": "#c1c3c3"
+    },
+    "colors": {
+        "color0": "#081111",
+        "color1": "#6D8A65",
+        "color2": "#999D6B",
+        "color3": "#BCC376",
+        "color4": "#69989A",
+        "color5": "#2ABCCF",
+        "color6": "#9AAB9B",
+        "color7": "#c1c3c3",
+        "color8": "#576a6a",
+        "color9": "#6D8A65",
+        "color10": "#999D6B",
+        "color11": "#BCC376",
+        "color12": "#69989A",
+        "color13": "#2ABCCF",
+        "color14": "#9AAB9B",
+        "color15": "#c1c3c3"
+    }
+}

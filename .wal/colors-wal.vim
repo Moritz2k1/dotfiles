@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/moritz/.wallpapers/Frieren_Forest.jpeg"
+let background = "#081111"
+let foreground = "#c1c3c3"
+let cursor     = "#c1c3c3"
+
+" Colors
+let color0  = "#081111"
+let color1  = "#6D8A65"
+let color2  = "#999D6B"
+let color3  = "#BCC376"
+let color4  = "#69989A"
+let color5  = "#2ABCCF"
+let color6  = "#9AAB9B"
+let color7  = "#c1c3c3"
+let color8  = "#576a6a"
+let color9  = "#6D8A65"
+let color10 = "#999D6B"
+let color11 = "#BCC376"
+let color12 = "#69989A"
+let color13 = "#2ABCCF"
+let color14 = "#9AAB9B"
+let color15 = "#c1c3c3"
