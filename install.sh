@@ -39,3 +39,5 @@ mv config/waypaper "$HOME"/.config/
 git clone https://github.com/jotyGill/ezsh
 cd ezsh || exit
 ./install.sh -c        # only run with '-c' the first time, running multiple times will duplicate history entries
+
+sed -i '1i(cat ~/.cache/wal/sequences &)\nfastfetch --gpu-hide-type integrated' .zshrc
