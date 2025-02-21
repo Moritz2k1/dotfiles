@@ -14,14 +14,14 @@ pip install neovim --break-system-packages
 # Move dotfiles
 git clone https://github.com/Moritz2k1/nvim.git ~/.config/nvim/
 
-mkdir -p "$HOME"/.local/share/icons
+mkdir -p "$HOME"/.local/share/icons/
 mv icons/candy-icons "$HOME"/.local/share/icons/
 
-mkdir -p "$HOME"/.cache/wal
-mv .wal "$HOME"/.cache/wal/
+mkdir -p "$HOME"/.cache/wal/
+mv .wal/* "$HOME"/.cache/wal/
 
-mkdir -p "$HOME"/.wallpapers
-mv wallpapers/* "$HOME"/.wallpapers
+mkdir -p "$HOME"/.wallpapers/
+mv wallpapers/* "$HOME"/.wallpapers/
 
 mv .zprofile "$HOME"/
 mv config/fastfetch "$HOME"/.config/
