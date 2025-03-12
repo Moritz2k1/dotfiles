@@ -1,5 +1,9 @@
 #!/bin/bash
 
-cp -r $HOME/.cache/wal/colors-spicetify.ini $HOME/.config/spicetify/Themes/Pywal
-cd $HOME/.config/spicetify/Themes/Pywal
-mv colors-spicetify.ini color.ini
+THEME_DIR="$HOME/.config/spicetify/Themes/Pywal/"
+
+if [ ! -d "$THEME_DIR" ]; then
+    mkdir -p "$THEME_DIR"
+fi
+
+cp $HOME/.cache/wal/colors-spicetify.ini $HOME/.config/spicetify/Themes/Pywal/color.ini
