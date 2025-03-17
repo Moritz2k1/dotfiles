@@ -17,7 +17,6 @@
         "pulseaudio",
         "cpu",
         "memory",
-        "temperature",
         "custom/notification",
     ],
     //Modules configuration
