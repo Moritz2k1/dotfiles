@@ -63,6 +63,8 @@ spicetify apply
 
 ## Screenshots
 
-### Work in Progress
+![Image](screenshots/Frieren_Rice.png)
+![Image](screenshots/Luffy_Rice.png)
+![Image](screenshots/Zenitsu_Rice.png)
 
 # Enjoy!!!
